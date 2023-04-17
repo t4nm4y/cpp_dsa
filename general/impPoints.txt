@@ -1,0 +1,25 @@
+
+*string 
+    string is not a built in data type by default unlike int, char
+    its a custom built data type
+    its implemented as :
+    string s;   is same as   char *s;
+    (char *string) //this is what it actually is in the library
+    it just stores the address of the first letter of the word or line;
+
+
+*segmentation fault 
+    segmentation fault means that u r trying to look or access to that memory that u shouln't use in the code
+        basically (u hve touched the segment of memory that u shouldnt have)
+    eg: if string s="hi" and u are trying to print *(s+5);
+    this will segmentation fault becoz the actual val of the string is till 0,1,3   3 for storing the /0 
+    beyond 3 is that segment of memory that we shouldn't change or see cause its possible that it may in use by any other program
+    and changing it might therfore crash the system
+        basically (u hve touched the segment of memory that u shouldnt have)
+  *buffer overflow      
+    in this eg when u exceed the allacated memory its called [buffer overflow]
+  *stack overflow
+    in case of eg: recursion if it keeps on running it will exceed the memory available and its called [stack overflow]
+
+
+*

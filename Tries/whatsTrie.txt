@@ -1,0 +1,4 @@
+usage:
+    insert word: to insert the word in the trie
+    search word: to search the given word in the trie
+    starts with word: to check if there is any string in the trie that starts with the given word

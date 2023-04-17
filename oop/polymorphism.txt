@@ -1,0 +1,20 @@
+poly means many and phorm means from
+many forms of a single thing
+
+compile time(see eg of sum of 2 complex nos.):
+    -func overloading
+    -operator overloading
+
+run time:
+    -virutal functions
+
+*func overloading: 
+a func can behave differently depending on the type of input
+eg: funcA(); -->this will run if nothing is passed
+funcA(int a); -->this will run is an integer val is passed
+
+*operator overloading:
+to overload an operator so that it behaves differently 
+or simply customize an operator 
+eg: like we do in complex nos. --> we customize the + operator to add int and complex part seperately
+

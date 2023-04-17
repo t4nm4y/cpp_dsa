@@ -1,0 +1,30 @@
+// heap is a [complete] binary tree that satisfies the heap property
+//there are 2 properties [max] heap and [min] heap
+// max-heap the root is greater than all other nodes
+//min-heap the root is lesser than all other modes
+
+//how to represent heap in form of array:
+//its done simply by level wise left to right
+
+//i represents index of the array representaion of the a complete tree
+//----!!! NOTE: here index starts from 1 instead of 0. !!!----
+//if node is i:
+//its parent=i/2
+//its left child of i = 2*i
+// right child of i = 2*i+1
+
+//the leaf nodes start from i=n/2,
+
+//time comp of delete and insert both are equal to the ht(i.e log(n))
+//because time comp of ht of a complete binary tree is log(n)
+
+//whats heapify:
+//to convert a complete binary tree into a heap (eihter max-heap or min-heap)
+//or u can convert the array(that represents the tree) to a heap
+//by default we make max-heap
+
+//time comp of heap sort is= deletion + indsertions= nlogn + nlogn= 2nlogn=[ O(nlogn) ]
+
+//create a heap takes O(logn)
+//but heapify only take O(n)
+//heap sort - nlogn

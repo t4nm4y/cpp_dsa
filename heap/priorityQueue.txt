@@ -1,0 +1,11 @@
+//queue means fifo
+//but in priority queue the elements are inserted and deleted based on their priority
+//elements are inserted in their oreder of priority
+//and when we delete the element of hightest priority is deleted first
+//priority queue is mostly used in algorithms
+//here the val of no. is its priority 
+if can be of both types 
+    -larger the no. more the priority eg: priority of 8 will be > than that of 6
+        in this case we implement it using max heap ( becoz max no. will always be at top)
+    -smaller the no. more the priority eg: priority of 6 will be > than that of 8
+        similarly its implemented using min heap

@@ -1,0 +1,6 @@
+its basically when we derive a class from another class
+like child and parent class
+
+in the child class:
+we inherit the public and protected members of the parent class 
+but cant inherit or access the private members

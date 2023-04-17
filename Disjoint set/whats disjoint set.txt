@@ -1,0 +1,14 @@
+it has mainly 2 functions
+findPar(x) (it finds the parent of the node x)
+Union(a,b) (it puts a, b in same component, ie. now there parent becomes same)
+*parent is same for all the elements of a component
+
+*Rank: is the no. of children a parent has;
+
+Union by rank:
+In doing union of a,b the one which has more rank becomes the new parent
+if ranks are same we can make anyone as parent
+and finally the rank of the new parent gets updated
+
+its not stl u need to make the functions yourself
+

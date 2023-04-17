@@ -1,0 +1,22 @@
+//in case of max heap
+
+//insert 
+directly insert in the end of the array
+and then inserted element k parent se compare kro
+
+if parent>inserted therefore its at its right postion exit the code
+if parent<inserted swap then again check for parent keep on swapping until the parent of the inserted is bigger than it
+(parent can be found by i/2)
+
+
+
+//delete
+always delete the head or the top most node
+and replace with the last element in the heap or the array
+now compare it with child and keep on swapping(swap with the larger of the 2 childs) until the child is smaller than it
+eg 
+    2
+   / \
+  5   7
+
+  in this case swap 2 with 7 ( since 7 is larger than 5)

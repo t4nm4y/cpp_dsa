@@ -1,0 +1,1 @@
+{"name":"Local: e","url":"/home/tanmay/coding/cpp/cp/16 oct/e.cpp","tests":[{"id":1665937754245,"input":"5\n1 1 2 2\n3 4 5 7\n8 9 15 18\n12 21 14 24\n36 60 48 66\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tanmay/coding/cpp/cp/16 oct/e.cpp","group":"local","local":true}

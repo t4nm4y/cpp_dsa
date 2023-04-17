@@ -1,0 +1,1 @@
+{"name":"Local: keypadFlexible","url":"/home/tanmay/coding/cpp/amazon/keypadFlexible.cpp","tests":[{"id":1659728094920,"input":"aabcccccdefghijklmnopqrstuvwxyzzzzz","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tanmay/coding/cpp/amazon/keypadFlexible.cpp","group":"local","local":true}

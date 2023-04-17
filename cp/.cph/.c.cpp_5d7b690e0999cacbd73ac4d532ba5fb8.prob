@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"/home/tanmay/coding/cpp/cp/c.cpp","tests":[{"id":1660403258995,"input":"3\n3 1\n3 1 2\n1 2\n4 2\n1 3 4 2\n4 5\n3 2\n5 2\n1 2 3 5 4\n5 1000000000\n4 6","output":"2\n0\n1\n0\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tanmay/coding/cpp/cp/c.cpp","group":"local","local":true}

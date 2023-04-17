@@ -1,0 +1,40 @@
+/*
+graph has nodes and edges as in tfcs
+
+it can be implemented using 2d matrix as in tfcs or 
+by inked list ki har element ki linked list m vo elements ayge jinpe usse ek edge jarhi ho
+
+serching 2 types: dfs, bfs
+* dfs( depth first search) -> its like normal traversal in trees, it goes to the leaf nodes of first child then come back to the parent,
+                            then go to another child and go to its leaf nodes then again come back to the parent and so on...
+                            (its implemented using stack)
+* bfs( breadth first search) -> its like level order traversal in trees 
+                            (therefore its implemented using queue)
+
+Terminogies:
+directed graph
+undirected graph
+degree of vertex
+    -outdegree: no. of outgoing edges
+    -indegree: no. of incoming edges
+path
+connected graph
+dissconnected graph -the connected vertices in it are called the connected components
+                    -and the diconnected vertices are called the dissconnected components
+cycles-path starting and ending on same vertex
+cyclic graph-that contains cycle
+acyclic graph-that doesnot contains cycle
+tree- connected acyclic graph
+DAG(directed acyclic graph)-as the name suggests
+complete graph- each vertex is connected to every other vertex present.
+              -no. of edges= nc2 where n id no. of vertices
+Weighted graph- with weighted edges
+
+representation of a graph
+G(v,e)
+where v is the set of vertices eg:
+    v={1,2,3,4,5};
+where e is the set of edges eg:
+    e={1-2, 2-3, 2-1, 4-3, 5-1, - - - - etc};
+
+*/

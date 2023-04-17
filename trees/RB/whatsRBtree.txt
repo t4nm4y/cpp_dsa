@@ -1,0 +1,23 @@
+* both avl and rb have same time complexity that is O(logn).
+
+* so whats the need of rb trees:
+in avl sometimes on insertion we need to do many rotations to balance the tree.
+but in rb tree max only 2 rotations are required, sometimes we dont even have to do rotations
+only recoloring will do the balancing
+
+* avl tree is strictly height balanced tree, whereas rb is roughly ht balanced, therefore
+searching is faster in avl trees but
+insertion and deletion is faster in rb trees.
+
+* properties of rb trees:
+-each node contains extra one bit that is the color of that node
+-head node or root is always black (remember it by: head member of a family always remain calm, so its black nd not red)
+-every leaf which is nil is black (child of leaf node)
+-if node is red, the children should be black, vice versa is not true
+(this constraint is only for red colored nodes)
+-ie. if node is black, then its children can be red or black
+-every path must contain same no. of black nodes
+(path from a node to any of its descendend nil node is called path)
+
+*so all avl trees if colored can be made rb tree
+so all avl can be rb, but all rb can't be avl

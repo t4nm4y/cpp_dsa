@@ -1,0 +1,10 @@
+
+    if we dont want to go to some path we will return from there
+    so while returning
+    before we return, also remove the changes made by that func //this is called backtracking (i.e removing the changes made by the func while returning)  -->
+
+    eg: what would have the maze looked like if i had not gone this path
+    (and to do so, we need to undo the changes that we made to travel that path)
+
+    insight to backtracking:
+        where a choice which will affect the future answers

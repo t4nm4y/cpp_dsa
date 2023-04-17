@@ -1,0 +1,11 @@
+*apply this method whenver u see a pattern like:
+[the pattern of taking some elements and removing some others]  -->!!vv imp point!!
+    [its also like permutations and combinations]
+
+eg: in subset we do this only eg: {a b c} subsets: 
+{a b}: in this we took a,b but removed c
+{c}: in this we took c but removed a,b etc.
+
+
+*whats subset method:
+-for every element we have 2 choices: either take it or remove it

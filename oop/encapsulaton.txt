@@ -1,0 +1,7 @@
+simply hiding the private data from the user
+
+eg: its done by using private, protected and public in a class
+
+in the child class or function:
+we can only inherit(or access) the public and protected members of the parent class 
+but cant inherit or access the private members

@@ -1,0 +1,36 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp",
+        "new": "cpp"
+    }
+
+    "workbench.colorCustomizations": {
+        // "list.inactiveSelectionBackground": "#C5DEF0",
+        "sideBar.background": "#000424",
+        "selection.background": "#ffffff",
+        // "toolbar.hoverBackground": "#f1eded69",
+
+        
+        "sideBar.foreground": "#cffdfd",
+        "editor.background": "#000d0f",
+        // "editor.foreground": "#000000",
+        // "sideBarSectionHeader.background": "#CAC9C9",
+        "sideBarSelected.background": "#CAC9C9",
+        // "sideBarSectionHeader.foreground": "#000000",
+        // "activityBar.border": "#FFFFFF",
+        "statusBar.background": "#002446",
+        "statusBar.foreground": "#ffffff",
+        // "scrollbarSlider.activeBackground": "#77D4CB",
+        // "scrollbarSlider.hoverBackground": "#8CE6DA",
+        // "badge.background": "#81CA91"
+    }
+    "editor.tokenColorCustomizations": {
+        // "numbers": "#2247EB",
+        "comments": "#71ac03",
+        // "functions": "#0D7C28"
+    }
+}

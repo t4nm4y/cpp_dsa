@@ -1,0 +1,1 @@
+{"name":"Local: SparseMatrixUserInput","url":"e:\\codes\\multilist\\SparseMatrixUserInput.cpp","tests":[{"id":1635672205039,"input":"5 5\n0 0 2 0 3\n0 0 4 0 0\n0 0 0 0 0\n0 1 5 0 0\n0 0 0 0 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\codes\\multilist\\SparseMatrixUserInput.cpp","group":"local","local":true}
