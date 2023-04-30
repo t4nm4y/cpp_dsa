@@ -3,14 +3,40 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//creating a template
-class DisjointSet{
+//use it directly:
+class DSU{
+    vector<int>parent,rank;
+public:
+    DSU(const int &n){
+        parent.resize(n+1);
+        rank.resize(n+1,0);
+        for(int i=0; i<n+1; i++) parent[i]=i;
+    }
+    int findPar(const int &node){
+        if(parent[node]==node) return node;
+        return parent[node]=findPar(parent[node]);
+    }
+    void UnionByRank(const int &u, const int &v){
+        int pu=findPar(u), pv=findPar(v);
+        if(pu==pv) return;
+        if(rank[pu]<rank[pv]) parent[pu]=pv;
+        else if(rank[pv]<rank[pu]) parent[pv]=pu;
+        else{
+            parent[pv]=pu;
+            rank[pu]++;
+        }
+    }
+};
+
+
+//for understanding
+class DSU_class{
     vector<int>rank,parent;
     vector<int>size; //if doing by size
 
 public:
     //constructor
-    DisjointSet(int n){ // making the size n+1 so it can work for both 1 and 0 based indexing
+    DSU_class(int n){ // making the size n+1 so it can work for both 1 and 0 based indexing
         parent.reserve(n+1);
         rank.resize(n+1,0); //as they will not have any children so the rank=0;
         size.resize(n+1,1); //as they only have one node so the size=1;
@@ -28,7 +54,7 @@ public:
         int pu=findPar(u), pv=findPar(v);
         if(pu==pv) return;
         if(rank[pu]<rank[pv]) parent[pu]=pv; //since smaller is getting attatched to larger the rank will not increase
-        if(rank[pv]<rank[pu]) parent[pv]=pu;
+        else if(rank[pv]<rank[pu]) parent[pv]=pu;
         else {
             parent[pv]=pu;
             rank[pu]++;
@@ -51,7 +77,7 @@ public:
 
 //trying the template
 int main(){
-    DisjointSet ds(7);
+    DSU_class ds(7);
     ds.unionBysize(1,2);
     ds.unionBysize(2,3);
     ds.unionBysize(4,5);

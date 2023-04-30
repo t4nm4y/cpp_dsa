@@ -2,7 +2,7 @@
 graph has nodes and edges as in tfcs
 
 it can be implemented using 2d matrix as in tfcs or 
-by inked list ki har element ki linked list m vo elements ayge jinpe usse ek edge jarhi ho
+by list ki har element ki list m vo elements ayge jinpe usse ek edge jarhi ho
 
 serching 2 types: dfs, bfs
 * dfs( depth first search) -> its like normal traversal in trees, it goes to the leaf nodes of first child then come back to the parent,

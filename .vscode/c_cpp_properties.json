@@ -25,7 +25,7 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:/ProgramData/chocolatey/bin/gcc.exe",
+            "compilerPath": "C:/ProgramData/chocolatey/bin/c++.exe",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "windows-gcc-x64"
