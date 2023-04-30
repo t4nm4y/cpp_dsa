@@ -17,3 +17,4 @@ int main() {
     cout << min(zeros_before + ones_count + zeros_after, n) << endl;
     return 0;
 }
+

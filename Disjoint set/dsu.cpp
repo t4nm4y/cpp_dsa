@@ -6,26 +6,31 @@ using namespace std;
 //use it directly:
 class DSU{
     vector<int>parent,rank;
+    int components;
 public:
     DSU(const int &n){
         parent.resize(n+1);
         rank.resize(n+1,0);
+        components=n;
         for(int i=0; i<n+1; i++) parent[i]=i;
     }
     int findPar(const int &node){
         if(parent[node]==node) return node;
         return parent[node]=findPar(parent[node]);
     }
-    void UnionByRank(const int &u, const int &v){
+    bool UnionByRank(const int &u, const int &v){
         int pu=findPar(u), pv=findPar(v);
-        if(pu==pv) return;
+        if(pu==pv) return false;
         if(rank[pu]<rank[pv]) parent[pu]=pv;
         else if(rank[pv]<rank[pu]) parent[pv]=pu;
         else{
             parent[pv]=pu;
             rank[pu]++;
         }
+        components--;
+        return true;
     }
+    int component_count(){ return components;}
 };
 
 
